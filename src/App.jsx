@@ -2,8 +2,8 @@ const work = [
   {
     text: (
       <>
-        Security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a> —
-        Yandex's distributed storage and big-data processing platform.
+        Security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a>,
+        Yandex's big-data platform.
       </>
     ),
   },
@@ -38,19 +38,16 @@ const work = [
     text: (
       <>
         Working with{" "}
-        <a href="https://elliotarledge.com/">Elliot Arledge</a> to create{" "}
-        <a href="https://t.me/ai_machinelearning_big_data/10250">
-          single-fused GPU kernel benchmarks
-        </a>
-        .
+        <a href="https://elliotarledge.com/">Elliot Arledge</a> to create
+        single-fused GPU kernel{" "}
+        <a href="https://t.me/ai_machinelearning_big_data/10250">benchmarks</a>.
       </>
     ),
   },
   {
     text: (
       <>
-        Falling down the <a href="https://ton.org/">TON</a> blockchain rabbit
-        hole.
+        Falling down the TON blockchain rabbit hole.
       </>
     ),
   },
