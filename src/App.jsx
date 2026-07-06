@@ -2,16 +2,16 @@ const work = [
   {
     text: (
       <>
-        Offensive security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a>,
-        Yandex's big-data platform.
+        Writing database drivers for Yandex infra like{" "}
+        <a href="https://t.me/userver_news/95">userver</a>.
       </>
     ),
   },
   {
     text: (
       <>
-        Writing database drivers for Yandex infra like{" "}
-        <a href="https://t.me/userver_news/95">userver</a>.
+        Offensive security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a>,
+        Yandex's big-data platform.
       </>
     ),
   },
