@@ -29,7 +29,7 @@ const work = [
   {
     text: (
       <>
-        Contributing to antiviruses and VPN protocols and clients like{" "}
+        Contributing to antiviruses, VPN protocols and clients like{" "}
         <a href="https://github.com/amnezia-vpn/amneziawg-go">Amnezia VPN</a>.
       </>
     ),
