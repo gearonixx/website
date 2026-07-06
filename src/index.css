@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #2c2c2c;
+  background: #faf9f7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 100px 24px 80px;
+}
+
+h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+  margin-bottom: 32px;
+}
+
+p {
+  margin-bottom: 16px;
+  color: #3a3a3a;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #c8b8a8;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.2s;
+}
+
+a:hover {
+  text-decoration-color: #1a1a1a;
+}
+
+.bio {
+  margin-bottom: 40px;
+}
+
+.work {
+  list-style: none;
+  margin: 4px 0 20px;
+}
+
+.work li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  color: #3a3a3a;
+}
+
+.work li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #c8b8a8;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact a {
+  color: #666;
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.contact a:hover {
+  color: #1a1a1a;
+  border-bottom-color: #c8b8a8;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 60px 20px 48px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
