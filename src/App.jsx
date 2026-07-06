@@ -30,7 +30,7 @@ const work = [
     text: (
       <>
         Contributing to antiviruses, VPN protocols and clients like{" "}
-        <a href="https://github.com/amnezia-vpn/amneziawg-go">Amnezia VPN</a>.
+        <a href="https://github.com/amnezia-vpn/amneziawg-go">Amnezia</a>.
       </>
     ),
   },
@@ -41,13 +41,6 @@ const work = [
         <a href="https://elliotarledge.com/">Elliot Arledge</a> to create
         single-fused GPU kernel{" "}
         <a href="https://t.me/ai_machinelearning_big_data/10250">benchmarks</a>.
-      </>
-    ),
-  },
-  {
-    text: (
-      <>
-        Falling down the TON blockchain rabbit hole.
       </>
     ),
   },
