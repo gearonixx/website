@@ -2,7 +2,7 @@ const work = [
   {
     text: (
       <>
-        Security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a>,
+        Offensive security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a>,
         Yandex's big-data platform.
       </>
     ),
