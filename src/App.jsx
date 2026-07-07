@@ -10,7 +10,7 @@ const work = [
   {
     text: (
       <>
-        Offensive security{" "}
+        Reverse engineering, offensive security{" "}
         <a href="https://github.com/ytsaurus/ytsaurus/commit/713a6ff37d66cf76a857291bbbf005a1da800864">
           analysis
         </a>{" "}
