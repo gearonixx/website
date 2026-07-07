@@ -10,8 +10,11 @@ const work = [
   {
     text: (
       <>
-        Offensive security analysis of <a href="https://ytsaurus.tech/">YTsaurus</a>,
-        Yandex's big-data platform.
+        Offensive security{" "}
+        <a href="https://github.com/ytsaurus/ytsaurus/commit/713a6ff37d66cf76a857291bbbf005a1da800864">
+          analysis
+        </a>{" "}
+        of YTsaurus, Yandex's big-data platform.
       </>
     ),
   },
@@ -32,7 +35,7 @@ const work = [
         Working with{" "}
         <a href="https://elliotarledge.com/">Elliot Arledge</a> to create
         single-fused GPU kernel{" "}
-        <a href="https://t.me/ai_machinelearning_big_data/10250">benchmarks</a>.
+        <a href="https://kernelbench.com/hard">benchmarks</a>.
       </>
     ),
   },
