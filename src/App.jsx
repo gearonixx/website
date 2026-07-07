@@ -47,11 +47,6 @@ export default function App() {
       <h1>Egor Uzhanin</h1>
 
       <div className="bio">
-        <p>
-          I maintain <a href="https://www.darkbloom.dev/">darkbloom</a> — an
-          encrypted, operator-blind AI inference platform.
-        </p>
-        <p>Also:</p>
         <ul className="work">
           {work.map((item, i) => (
             <li key={i}>{item.text}</li>
