@@ -56,7 +56,7 @@ export default function App() {
       </div>
 
       <div className="contact">
-        <a href="https://t.me/gearonixx">gearonixx</a>
+        <a href="https://t.me/gearonixx">@gearonixx</a>
         <a href="mailto:gearonixx@proton.me">gearonixx@proton.me</a>
       </div>
     </div>
