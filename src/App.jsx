@@ -60,7 +60,7 @@ function Home() {
       <div className="contact">
         <a href="https://t.me/gearonixx">@gearonixx</a>
         <a href="mailto:gearonixx@proton.me">gearonixx@proton.me</a>
-        <a href="#/proofs">cool research stuff</a> 
+        <a href="#/proofs">cool research updates</a> 
       </div>
     </div>
   );
