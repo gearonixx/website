@@ -24,7 +24,7 @@ const work = [
   {
     text: (
       <>
-        telegram vulnerability research and hunting elusive{" "}
+        telegram research and hunting elusive{" "}
         <a href="https://github.com/telegramdesktop/tdesktop/commit/5e1a05f12c11294c87b33cefc874af3086112a75">
           crashes
         </a>
