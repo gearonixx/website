@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img" aria-label="Blog rendering pipeline">
+  <rect width="720" height="260" fill="#faf9f7"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#c8b8a8"/>
+    </marker>
+    <style>
+      .box { fill:#f5f1ea; stroke:#d9cbb8; stroke-width:1.5; }
+      .lbl { font-family: 'DM Sans', system-ui, sans-serif; font-size:15px; fill:#33312e; }
+      .sub { font-family: ui-monospace, Menlo, monospace; font-size:12px; fill:#9a8f7c; }
+      .flow { stroke:#c8b8a8; stroke-width:2; fill:none; }
+    </style>
+  </defs>
+
+  <g transform="translate(24,96)">
+    <rect class="box" width="150" height="72" rx="8"/>
+    <text class="lbl" x="75" y="34" text-anchor="middle">posts/*.md</text>
+    <text class="sub" x="75" y="54" text-anchor="middle">you write this</text>
+  </g>
+  <path class="flow" d="M178,132 L214,132" marker-end="url(#arrow)"/>
+
+  <g transform="translate(220,96)">
+    <rect class="box" width="150" height="72" rx="8"/>
+    <text class="lbl" x="75" y="30" text-anchor="middle">posts.js</text>
+    <text class="sub" x="75" y="50" text-anchor="middle">frontmatter + TOC</text>
+  </g>
+  <path class="flow" d="M374,132 L410,132" marker-end="url(#arrow)"/>
+
+  <g transform="translate(416,96)">
+    <rect class="box" width="160" height="72" rx="8"/>
+    <text class="lbl" x="80" y="30" text-anchor="middle">Markdown.jsx</text>
+    <text class="sub" x="80" y="50" text-anchor="middle">md → html</text>
+  </g>
+  <path class="flow" d="M580,132 L616,132" marker-end="url(#arrow)"/>
+
+  <g transform="translate(622,96)">
+    <rect class="box" width="74" height="72" rx="8" fill="#eee6d8"/>
+    <text class="lbl" x="37" y="42" text-anchor="middle">post</text>
+  </g>
+
+  <text class="sub" x="360" y="220" text-anchor="middle" font-size="13">gfm · katex · syntax highlighting · anchors · figures</text>
+</svg>

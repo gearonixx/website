@@ -1,0 +1,453 @@
+/* Blog + article styles. Extends index.css (loaded first). Palette matches the
+   site: warm off-white #faf9f7, ink #1a1a1a, tan accent #c8b8a8. */
+
+/* ---- Blog index list ------------------------------------------------------ */
+.post-list {
+  list-style: none;
+  margin: 8px 0 44px;
+  padding: 0;
+}
+.post-list li {
+  margin-bottom: 28px;
+}
+.post-link {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-decoration: none;
+  border: none;
+}
+.post-date {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  color: #9a9184;
+}
+.post-title {
+  font-family: "Crimson Pro", serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+.post-link:hover .post-title {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #c8b8a8;
+  text-underline-offset: 3px;
+}
+.post-desc {
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: #6a6459;
+}
+.draft-tag {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #b08a5a;
+  vertical-align: middle;
+}
+.empty {
+  color: #8a8175;
+}
+
+/* ---- Findings page (was #/proofs) ---------------------------------------- */
+.update {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.proof {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #e5e0d8;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+
+/* ---- Article shell -------------------------------------------------------- */
+.article {
+  max-width: 704px;
+}
+.post-back {
+  margin-bottom: 28px;
+}
+.post-back a,
+.post-footer a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  color: #9a9184;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.post-back a:hover,
+.post-footer a:hover {
+  color: #1a1a1a;
+  border-bottom-color: #c8b8a8;
+}
+.post-header {
+  margin-bottom: 32px;
+}
+.post-header h1 {
+  font-size: 40px;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+.post-meta {
+  display: flex;
+  gap: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  color: #9a9184;
+}
+.post-meta span {
+  position: relative;
+}
+.post-subtitle {
+  margin: 18px 0 0;
+  font-family: "Crimson Pro", serif;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.5;
+  color: #6a6459;
+}
+.post-cover {
+  margin: 0 0 40px;
+}
+.post-footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid #ece7df;
+}
+
+/* ---- Article body typography --------------------------------------------- */
+.post-body {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 19px;
+  line-height: 1.75;
+  color: #33312e;
+}
+.post-body > p:first-child {
+  margin-top: 0;
+}
+.post-body h2 {
+  font-family: "Crimson Pro", serif;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+  margin: 48px 0 14px;
+  scroll-margin-top: 24px;
+}
+.post-body h3 {
+  font-family: "Crimson Pro", serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 34px 0 10px;
+  scroll-margin-top: 24px;
+}
+.post-body h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6a6459;
+  margin: 28px 0 8px;
+  scroll-margin-top: 24px;
+}
+.post-body p {
+  margin: 0 0 20px;
+}
+.post-body a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #c8b8a8;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.post-body a:hover {
+  text-decoration-color: #1a1a1a;
+}
+.post-body ul,
+.post-body ol {
+  margin: 0 0 20px;
+  padding-left: 26px;
+}
+.post-body li {
+  margin: 6px 0;
+}
+.post-body li::marker {
+  color: #b3a795;
+}
+.post-body blockquote {
+  margin: 24px 0;
+  padding: 4px 20px;
+  border-left: 3px solid #d9cbb8;
+  color: #5f594e;
+  font-style: italic;
+}
+.post-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+.post-body hr {
+  border: none;
+  border-top: 1px solid #e5e0d8;
+  margin: 44px 0;
+}
+.post-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Figures with captions */
+.post-figure {
+  margin: 34px 0;
+}
+.post-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.post-figure figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9a9184;
+}
+
+/* Tables */
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+.post-body th,
+.post-body td {
+  padding: 8px 14px;
+  border: 1px solid #e5e0d8;
+  text-align: left;
+}
+.post-body th {
+  background: #f3efe8;
+  font-weight: 600;
+}
+.post-body td {
+  color: #4a463f;
+}
+
+/* Inline code */
+.post-body :not(pre) > code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    monospace;
+  font-size: 0.86em;
+  background: #f0ebe2;
+  color: #5a4a3a;
+  padding: 0.12em 0.36em;
+  border-radius: 4px;
+}
+
+/* Code blocks */
+.code-block {
+  margin: 28px 0;
+  border: 1px solid #e8e2d8;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fbfaf7;
+}
+.code-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 14px;
+  background: #f3efe8;
+  border-bottom: 1px solid #e8e2d8;
+}
+.code-lang {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #9a9184;
+}
+.code-copy {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  color: #9a9184;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 2px 9px;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+.code-copy:hover {
+  color: #1a1a1a;
+  background: #e9e3d9;
+}
+.code-block pre {
+  margin: 0;
+  padding: 16px;
+  overflow-x: auto;
+}
+.code-block pre code,
+.post-body pre code.hljs {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+    monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0;
+  background: transparent;
+}
+
+/* KaTeX: let long display equations scroll instead of overflowing */
+.post-body .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0 8px;
+}
+.post-body .katex {
+  font-size: 1.05em;
+}
+
+/* Footnotes (GFM) */
+.post-body .footnotes {
+  margin-top: 48px;
+  padding-top: 22px;
+  border-top: 1px solid #ece7df;
+  font-size: 16px;
+  color: #6a6459;
+}
+.post-body .footnotes h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #9a9184;
+  margin: 0 0 12px;
+}
+.post-body .footnotes li {
+  margin: 4px 0;
+}
+
+/* ---- Table of contents ---------------------------------------------------- */
+.toc {
+  margin: 4px 0 40px;
+  padding: 18px 22px;
+  background: #f5f1ea;
+  border: 1px solid #ece7df;
+  border-radius: 8px;
+  font-family: "DM Sans", sans-serif;
+}
+.toc-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #9a9184;
+  margin-bottom: 10px;
+}
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.toc li {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+.toc-depth-3 {
+  padding-left: 18px;
+}
+.toc a {
+  font-size: 15px;
+  color: #4a463f;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.toc a:hover {
+  color: #1a1a1a;
+  border-bottom-color: #c8b8a8;
+}
+
+/* ---- Attachments ---------------------------------------------------------- */
+.attachments {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #ece7df;
+}
+.attachments h2 {
+  font-family: "Crimson Pro", serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+.attachments ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.attachments li {
+  margin: 10px 0;
+}
+.attachment {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  padding: 11px 17px;
+  background: #f5f1ea;
+  border: 1px solid #e5e0d8;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  color: #3a3a3a;
+  transition: border-color 0.2s, background 0.2s;
+}
+.attachment:hover {
+  border-color: #c8b8a8;
+  background: #f0ebe2;
+}
+.attachment-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #e4dccd;
+  color: #7a6f5c;
+  font-size: 13px;
+}
+.attachment-meta {
+  color: #9a9184;
+  font-size: 13px;
+}
+
+/* ---- Responsive ----------------------------------------------------------- */
+@media (max-width: 480px) {
+  .post-header h1 {
+    font-size: 31px;
+  }
+  .post-body {
+    font-size: 18px;
+  }
+  .post-body h2 {
+    font-size: 24px;
+  }
+  .post-body h3 {
+    font-size: 20px;
+  }
+}

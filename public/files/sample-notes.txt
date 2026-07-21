@@ -1,0 +1,8 @@
+Sample attachment
+=================
+
+This is an example downloadable file. Anything you drop in /public/files
+is served at /files/<name> and can be linked from a post or listed in the
+post's `attachments:` frontmatter.
+
+Swap this out for a PDF, a dataset, a zip of slides, a PoC, whatever you like.
