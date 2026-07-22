@@ -47,6 +47,13 @@ const work = [
       </>
     ),
   },
+  {
+    text: (
+      <>
+        currently studying the <a href="https://ton.org/">TON</a> blockchain.
+      </>
+    ),
+  },
 ];
 
 function useTitle(title) {
