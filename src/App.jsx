@@ -80,6 +80,7 @@ function Home() {
         <a href="https://t.me/gearonixx">@gearonixx</a>
         <a href="https://x.com/kasper_0q">@kasper_0q</a>
         <a href="mailto:gearonixx@proton.me">gearonixx@proton.me</a>
+        <a href="/files/Egor_Uzhanin_CV_EN.pdf">cv</a>
         <Link to="/blog">blog</Link>
         <a href="https://t.me/gearonixx_blog">telegram blog</a>
         <Link to="/proofs">cool findings</Link>
